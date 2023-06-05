@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #efefef;
+}
+h2{
+    color: rgb(134, 18, 18);
+    font-size: 50px;
+}
+a {
+    padding: 1em 5em;
+    background: #efefef;
+    border: none;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(134, 18, 18);
+    border-radius: .5rem;
+    color: #444;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+        -6px -6px 10px rgba(255, 255, 255, .5),
+        6px 6px 8px rgba(255, 255, 255, .075),
+        6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+a:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+        -2px -2px 4px rgba(255, 255, 255, .4),
+        2px 2px 2px rgba(255, 255, 255, .05),
+        2px 2px 4px rgba(0, 0, 0, .1);
+}
+
+a:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+        inset -2px -2px 4px rgba(255, 255, 255, .5),
+        inset 2px 2px 2px rgba(255, 255, 255, .075),
+        inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
+p{
+    color: rgb(134, 18, 18);
+        padding: 1em 5em;
+            background: #efefef;
+            border: none;
+            border-radius: .5rem;
+            font-size: 20px;
+            font-weight: 700;width: 100%;
+            letter-spacing: .2rem;
+            text-align: center;
+            outline: none;
+            cursor: pointer;
+            transition: .2s ease-in-out;
+            box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(255, 255, 255, .075),
+                6px 6px 10px rgba(0, 0, 0, .15); 
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+h3{
+    color: rgb(134, 18, 18);
+        padding: 1em 5em;
+        background: #efefef;
+        border: none;
+        border-radius: .5rem;
+        font-size: 20px;
+        font-weight: 700;
+        width: 100%;
+        letter-spacing: .2rem;
+        text-align: center;
+        outline: none;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+        box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+            -6px -6px 10px rgba(255, 255, 255, .5),
+            6px 6px 8px rgba(255, 255, 255, .075),
+            6px 6px 10px rgba(0, 0, 0, .15);
+}

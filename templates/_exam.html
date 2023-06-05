@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    {%for each in data%}
+    <h1>{{each["category"]|safe}}</h1>
+    <p>{{each["difficulty"]|safe}}</p>
+    <p>
+      {{each["question"]|safe}}
+      {% if each["question"] == options["question"] %}
+      {%for dat in options["ans"]%}
+      <input type="radio" name="ans" value="{{dat}}" />
+      <label for=""> {{dat|safe}} </label>
+      {% endfor %}
+    </p>
+    {%endif%}
+    {% endfor %}
+  </body>
+</html>
